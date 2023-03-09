@@ -1,0 +1,5 @@
+Find how to link game object and scene
+
+# For the future
+-Change json parse to pointers to make it more efficient
+-Change ArrayList to smart pointers for avoiding memory leakage

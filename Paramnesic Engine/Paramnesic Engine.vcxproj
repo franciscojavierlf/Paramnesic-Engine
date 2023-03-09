@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PE\Asset\Animation.cpp" />
+    <ClCompile Include="PE\Asset\AssetsBuffer.cpp" />
+    <ClCompile Include="PE\Asset\SoundChannel.cpp" />
+    <ClCompile Include="PE\Asset\Tile.cpp" />
+    <ClCompile Include="PE\Engine\UI\EnginePanel.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\Animator.cpp" />
+    <ClCompile Include="PE\Engine\Engine.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\UI\TextRenderer.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\SpriteRenderer.cpp" />
+    <ClCompile Include="PE\Utils\Transform.cpp" />
+    <ClCompile Include="PE\Game\Game.cpp" />
+    <ClCompile Include="PE\Asset\Asset.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\Audio.cpp" />
+    <ClCompile Include="PE\Asset\AudioFile.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\BoxCollider2D.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\Camera.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\GameComponent.cpp" />
+    <ClCompile Include="PE\GameObject\GameObject.cpp" />
+    <ClCompile Include="PE\Game\GameGraphics.cpp" />
+    <ClCompile Include="PE\Game\GameSettings.cpp" />
+    <ClCompile Include="PE\Graphics\Font.cpp" />
+    <ClCompile Include="PE\Utils\Color.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\BadFormatException.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\BadJsonFormatException.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\Exception.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\FileNotFoundException.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\IndexOutOfRangeException.cpp" />
+    <ClCompile Include="PE\Utils\Exceptions\OperatorException.cpp" />
+    <ClCompile Include="PE\Utils\File.cpp" />
+    <ClCompile Include="PE\Utils\Json.cpp" />
+    <ClCompile Include="PE\Utils\Math.cpp" />
+    <ClCompile Include="PE\Utils\Random.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\RigidBody2D.cpp" />
+    <ClCompile Include="PE\Asset\Scene.cpp" />
+    <ClCompile Include="PE\Engine\Screen.cpp" />
+    <ClCompile Include="PE\Asset\Sprite.cpp" />
+    <ClCompile Include="PE\Utils\SmartPointers\SharedPtr.cpp" />
+    <ClCompile Include="PE\Utils\String.cpp" />
+    <ClCompile Include="PE\GameObject\GameComponent\TileMap.cpp" />
+    <ClCompile Include="PE\Utils\StringBuilder.cpp" />
+    <ClCompile Include="PE\Utils\Vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PE\Asset.hpp" />
+    <ClInclude Include="PE\Asset\AssetsBuffer.hpp" />
+    <ClInclude Include="PE\Engine\Engine.hpp" />
+    <ClInclude Include="PE\Engine.hpp" />
+    <ClInclude Include="PE\Engine\UI\EnginePanel.hpp" />
+    <ClInclude Include="PE\GameObject.hpp" />
+    <ClInclude Include="PE\Asset\Animation.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\Animator.hpp" />
+    <ClInclude Include="PE\Game.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\UI\TextRenderer.hpp" />
+    <ClInclude Include="PE\Graphics\Font.hpp" />
+    <ClInclude Include="PE\Utils.hpp" />
+    <ClInclude Include="PE\Utils\ArrayList.hpp" />
+    <ClInclude Include="PE\Asset\Asset.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\Audio.hpp" />
+    <ClInclude Include="PE\Asset\AudioFile.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\BoxCollider2D.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\Camera.hpp" />
+    <ClInclude Include="PE\Utils\Color.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\GameComponent.hpp" />
+    <ClInclude Include="PE\GameObject\GameObject.hpp" />
+    <ClInclude Include="PE\Game\Game.hpp" />
+    <ClInclude Include="PE\Game\GameGraphics.hpp" />
+    <ClInclude Include="PE\Game\GameSettings.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\BadFormatException.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\BadJsonFormatException.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\Exception.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\FileNotFoundException.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\IndexOutOfRangeException.hpp" />
+    <ClInclude Include="PE\Utils\File.hpp" />
+    <ClInclude Include="PE\Utils\Json.hpp" />
+    <ClInclude Include="PE\Utils\Map.hpp" />
+    <ClInclude Include="PE\Utils\Math.hpp" />
+    <ClInclude Include="PE\Utils\Exceptions\OperatorException.hpp" />
+    <ClInclude Include="PE\Utils\MemberCheck.hpp" />
+    <ClInclude Include="PE\Utils\Random.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\RigidBody2D.hpp" />
+    <ClInclude Include="PE\Asset\Scene.hpp" />
+    <ClInclude Include="PE\Engine\Screen.hpp" />
+    <ClInclude Include="PE\Asset\SoundChannel.hpp" />
+    <ClInclude Include="PE\Asset\Sprite.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\SpriteRenderer.hpp" />
+    <ClInclude Include="PE\Utils\SmartPointers\SharedPtr.hpp" />
+    <ClInclude Include="PE\Utils\String.hpp" />
+    <ClInclude Include="PE\Asset\Tile.hpp" />
+    <ClInclude Include="PE\GameObject\GameComponent\TileMap.hpp" />
+    <ClInclude Include="PE\Utils\Transform.hpp" />
+    <ClInclude Include="PE\Utils\StringBuilder.hpp" />
+    <ClInclude Include="PE\Utils\Vector2.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{99888AD3-E173-4818-A601-48BEC4C71FDF}</ProjectGuid>
+    <RootNamespace>ParamnesicLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Paramnesic Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\engine\inter\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\engine\inter\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\engine\inter\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\engine\inter\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\SFML-2.4.2\include;$(SolutionDir)$(MSBuildProjectName)\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SFML-2.4.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jpeg.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\SFML-2.4.2\include;$(SolutionDir)$(MSBuildProjectName)\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SFML-2.4.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jpeg.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-network-s-d.lib;sfml-audio-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\SFML-2.4.2\include;$(SolutionDir)$(MSBuildProjectName)\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SFML-2.4.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jpeg.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;sfml-network-s.lib;sfml-audio-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)lib\SFML-2.4.2\include;$(SolutionDir)$(MSBuildProjectName)\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SFML-2.4.2\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>jpeg.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;sfml-network-s.lib;sfml-audio-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+{
+  "name": "Paramnesia",
+  "assets": {
+    "0": {
+      "type": "Scene",
+      "name": "scene_01"
+    }
+  }
+}

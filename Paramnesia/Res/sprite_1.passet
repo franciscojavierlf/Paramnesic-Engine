@@ -1,0 +1,10 @@
+{
+	"Type": "Sprite",
+	"Name": "sprite 1",
+	"Constructor": "rect",
+	"Attribs": {
+		"color": "#FFFFFF",
+		"width": 10.0,
+		"height": 10.0
+	}
+}

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paramnesic Engine", "Paramnesic Engine\Paramnesic Engine.vcxproj", "{99888AD3-E173-4818-A601-48BEC4C71FDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paramnesia", "Paramnesia\Paramnesia.vcxproj", "{4C421B17-E381-4269-B647-C79435C24324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{96A24DC0-A1DE-484B-974D-AA6E5E08D561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{0FE96C96-DAFF-4954-B4F4-B85EBED8F982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F52C98F5-A1A3-486D-89D9-6E2FC25425FD}"
+	ProjectSection(SolutionItems) = preProject
+		To do.txt = To do.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Debug|x64.ActiveCfg = Debug|x64
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Debug|x64.Build.0 = Debug|x64
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Debug|x86.ActiveCfg = Debug|Win32
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Debug|x86.Build.0 = Debug|Win32
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Release|x64.ActiveCfg = Release|x64
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Release|x64.Build.0 = Release|x64
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Release|x86.ActiveCfg = Release|Win32
+		{99888AD3-E173-4818-A601-48BEC4C71FDF}.Release|x86.Build.0 = Release|Win32
+		{4C421B17-E381-4269-B647-C79435C24324}.Debug|x64.ActiveCfg = Debug|x64
+		{4C421B17-E381-4269-B647-C79435C24324}.Debug|x64.Build.0 = Debug|x64
+		{4C421B17-E381-4269-B647-C79435C24324}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C421B17-E381-4269-B647-C79435C24324}.Debug|x86.Build.0 = Debug|Win32
+		{4C421B17-E381-4269-B647-C79435C24324}.Release|x64.ActiveCfg = Release|x64
+		{4C421B17-E381-4269-B647-C79435C24324}.Release|x64.Build.0 = Release|x64
+		{4C421B17-E381-4269-B647-C79435C24324}.Release|x86.ActiveCfg = Release|Win32
+		{4C421B17-E381-4269-B647-C79435C24324}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99888AD3-E173-4818-A601-48BEC4C71FDF} = {96A24DC0-A1DE-484B-974D-AA6E5E08D561}
+		{4C421B17-E381-4269-B647-C79435C24324} = {0FE96C96-DAFF-4954-B4F4-B85EBED8F982}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E9DE19C-5BA8-4C3B-A4EB-3D8A9A4B7172}
+	EndGlobalSection
+EndGlobal
